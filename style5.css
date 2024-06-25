@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_box{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(skyblue 35%, white 36% 40%,black 41% 60%, white 61% 65%, skyblue 66% 100%);
+}
+.mini_box{
+    width: 700px;
+    height: 400px;
+    margin-bottom: 100px;
+    background: linear-gradient(red 25%, green 0 50%, yellow 0 75%, salmon 0 100%);
+}

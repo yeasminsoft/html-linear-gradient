@@ -1,0 +1,37 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main_box{
+    width: 1000px;
+    height: 100px;
+    margin: 100px auto;
+    border: 1px solid;
+    text-align: right;
+    line-height: 100px;
+    background: linear-gradient(-50deg, green 50%, red 50%);
+}
+.trivuj{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 200px solid red;
+}   
+.trivuj1{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-top: 50px solid red;
+    border-left: 50px solid blue;
+    border-right: 50px solid green;
+    border-bottom: 50px solid yellowgreen;
+}
+.test{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(red 25%, green 0 50%, yellow 0 75%, salmon 0 100%);
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
